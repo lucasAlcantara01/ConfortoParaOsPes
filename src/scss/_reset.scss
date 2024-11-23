@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  -webkit-font-smoothing:antialiased;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+button{
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+body{
+  font-size: 1rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Helvetica-Medium", sans-serif;
+  &::-webkit-scrollbar {
+    width: 6px;   
+    border-radius: 20px; 
+    display: block;      
+    transition: all .3s ease;  
+  }
+  &::-webkit-scrollbar-track {
+    background:var(--azul-700); 
+    border-radius: none;     
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--azul-500); 
+    border-radius: 10rem; 
+}
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+
+

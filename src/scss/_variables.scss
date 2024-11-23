@@ -1,0 +1,59 @@
+:root {
+  --roxo-500: #C995E8;
+  --roxo-600: #B07ED1;
+  --roxo-700: #9766B9;
+  --roxo-800: #7E4FA2;
+  --cinza: #e3f0f5;
+  --title: #33303e;
+  --paragrafo: #5f5c6b;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
