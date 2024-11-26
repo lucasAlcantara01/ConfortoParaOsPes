@@ -2,80 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/img/Logo-Conforto_oara_os_pes.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./public/img/Logo-Conforto_oara_os_pes.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/scss/main.scss">
+    <link rel="stylesheet" href="./src/scss/main.scss" />
     <title>Agendamento</title>
   </head>
   <body>
+    <style>
+      header {
+        position: sticky;
+        background-color: #9766b9;
+      }
+    </style>
+
     <header>
-      <div class="container">
-        <div class="header__logo">
-          <img src="./public/img/Logo-Conforto_oara_os_pes.svg" alt="">
+      <a href="./index.html" class="header__logo">
+        <img src="/public/img/logo_footer.webp" alt="" />
+      </a>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <a href="./index.html" class="header__link">Home</a>
+          <a href="./sobre.html" class="header__link">Sobre nós</a>
+          <a href="./servicos.html" class="header__link">Seviços</a>
+          <a href="./contato.html" class="header__link">Contato</a>
+        </ul>
+        <div class="header__cta">
+          <a href="./agendamento.html" class="btn">Agendamento</a>
         </div>
-        <nav class="header__nav">
-          <ul class="header__links">
-            <li class="header__link">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="header__link">
-              <a href="./sobre.html">Sobre</a>
-            </li>
-            <li class="header__link">
-              <a href="./servicos.html">Serviços</a>
-            </li>
-            <li class="header__link">
-              <a href="./contato.html">contato</a>
-            </li>
-            <li>
-              <a href="/agendamento.html" class="btn">Agendar</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
 
-
+    <section class="s-agendamento">
+      <div class="container">
+        <!-- Widget em linha do Calendly - início -->
+        <div
+          class="calendly-inline-widget"
+          data-url="https://calendly.com/lucas-alcantaravm?hide_landing_page_details=1&hide_gdpr_banner=1"
+          style="min-width: 320px; height: 700px"
+        ></div>
+        
+        <!-- Widget em linha do Calendly - fim -->
+      </div>
+    </section>
 
     <footer>
       <div class="container">
-        <div class="footer__img">
-          <img src="" alt="" />
+        <div class="footer__info">
+          <div class="footer__logo">
+            <img src="/public/img/logo_footer.webp" alt="" />
+          </div>
+          <div class="footer__social">
+            <a class="social__icon">
+              <img src="/public/img/wpp_icon.svg" alt="" />
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/insta_icon.svg" alt="" />
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/facebok_icon.svg" alt="" />
+            </a>
+          </div>
         </div>
-        <nav class="footer__nav">
+        <div class="footer__nav">
           <ul class="footer__links">
-            <li class="footer__link">
-              <a href="">Home</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Sobre</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Serviços</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Agendamento</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Contato</a>
-            </li>
+            <li><a href="" class="footer__link">Home</a></li>
+            <li><a href="" class="footer__link">Sobre</a></li>
+            <li><a href="" class="footer__link">Serviços</a></li>
+            <li><a href="" class="footer__link">Contato</a></li>
           </ul>
-        </nav>
-        <div class="footer__contact">
-          <a href="" class="contact__icon">
-            <img src="./public/img/facebok_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/insta_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/wpp_icon.svg" alt="" />
-          </a>
-        </div>
-        <div class="footer__adress">
-          <p>Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas</p>
+          <div class="footer__contact">
+            <div class="footer__adress">
+              <span>Endereço</span>
+              <p>
+                Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas
+              </p>
+            </div>
+            <div class="footer__phone">
+              <span>Telefone</span>
+              <p>(11) 9828-7249</p>
+            </div>
+          </div>
         </div>
       </div>
+      <div
+        class="footer__element"
+        style="background-image: url(./public/img/footer_element_4x.webp)"
+      >
+        <a href="">Made by Lucas</a>
+      </div>
     </footer>
+
+    <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async
+        ></script>
   </body>
 </html>

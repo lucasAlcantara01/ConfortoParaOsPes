@@ -8,73 +8,95 @@
     <title>Sobre</title>
   </head>
   <body>
+    <style>
+      header {
+        position: sticky;
+        background-color: #9766B9;
+      }
+    </style>
+
     <header>
-      <div class="container">
-        <div class="header__logo">
-          <img src="./public/img/Logo-Conforto_oara_os_pes.svg" alt="">
+      <a href="./index.html"  class="header__logo">
+        <img src="/public/img/logo_footer.webp" alt="">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <a href="./index.html" class="header__link">Home</a>
+          <a href="./sobre.html" class="header__link">Sobre nós</a>
+          <a href="./servicos.html" class="header__link">Seviços</a>
+          <a href="./contato.html" class="header__link">Contato</a>
+        </ul>
+        <div class="header__cta">
+          <a href="./agendamento.html" class="btn">Agendamento</a>
         </div>
-        <nav class="header__nav">
-          <ul class="header__links">
-            <li class="header__link">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="header__link">
-              <a href="./sobre.html">Sobre</a>
-            </li>
-            <li class="header__link">
-              <a href="./servicos.html">Serviços</a>
-            </li>
-            <li class="header__link">
-              <a href="./contato.html">contato</a>
-            </li>
-            <li>
-              <a href="/agendamento.html" class="btn">Agendar</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
 
+    <section class="sobre__banner" style="background-image: url(./public/img/sobre_banner.webp);">
+      <div class="banner__title">
+        <h1>A Arte de Cuidar dos Seus Pés: Conheça Cleusa</h1>
+      </div>
+    </section>
 
+    <section class="sobre__description">
+      <div class="container">
+        <div class="description__text">
+          <h2>Olá, meu nome é <span>Cleusa</span></h2>
+          <p>Enfermeira com 25 anos de experiência na área da saúde. Minha trajetória é marcada pelo comprometimento com o cuidado humanizado e pela busca constante de aprimoramento. </p>
+        </div>
+        <div class="description__images">
+          <div class="image__card">
+            <img src="/public/img/rectangle_46.webp" alt="">
+          </div>
+          <div class="image__card">
+            <img src="/public/img/rectangle_47.webp" alt="">
+          </div>
+          <div class="image__card">
+            <img src="/public/img/rectangle_48.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <div class="container">
-        <div class="footer__img">
-          <img src="" alt="" />
+        <div class="footer__info">
+          <div class="footer__logo">
+            <img src="/public/img/logo_footer.webp" alt="">
+          </div>
+          <div class="footer__social">
+            <a class="social__icon">
+              <img src="/public/img/wpp_icon.svg" alt="">
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/insta_icon.svg" alt="">
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/facebok_icon.svg" alt="">
+            </a>
+          </div>
         </div>
-        <nav class="footer__nav">
+        <div class="footer__nav">
           <ul class="footer__links">
-            <li class="footer__link">
-              <a href="">Home</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Sobre</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Serviços</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Agendamento</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Contato</a>
-            </li>
+            <li><a href="" class="footer__link">Home</a></li>
+            <li><a href="" class="footer__link">Sobre</a></li>
+            <li><a href="" class="footer__link">Serviços</a></li>
+            <li><a href="" class="footer__link">Contato</a></li>
           </ul>
-        </nav>
-        <div class="footer__contact">
-          <a href="" class="contact__icon">
-            <img src="./public/img/facebok_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/insta_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/wpp_icon.svg" alt="" />
-          </a>
+          <div class="footer__contact">
+            <div class="footer__adress">
+              <span>Endereço</span>
+              <p>Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas  </p>
+            </div>
+            <div class="footer__phone">
+              <span>Telefone</span>
+              <p>(11) 9828-7249</p>
+            </div>
+          </div>
         </div>
-        <div class="footer__adress">
-          <p>Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas</p>
-        </div>
+      </div>
+      <div class="footer__element" style="background-image: url(./public/img/footer_element_4x.webp);">
+        <a href="">Made by Lucas</a>
       </div>
     </footer>
   </body>

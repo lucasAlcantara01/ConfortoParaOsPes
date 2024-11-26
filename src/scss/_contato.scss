@@ -1,0 +1,61 @@
+.contato__banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  margin: 4rem 6rem;
+  height: 42.2rem;
+  padding: 5rem;
+  .banner__title {
+    max-width: 70rem;
+    h1 {
+      color: #ffffff;
+    }
+  }
+}
+
+.contato__content {
+  padding: 10rem 0;
+  .container {
+    display: flex;
+    gap: 2.4rem;
+    .contato_info {
+      flex: 1;
+      .contato__description {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        padding: 3rem;
+        border-radius: 2rem;
+        background: rgb(176, 126, 209);
+        background: linear-gradient(
+          270deg,
+          rgba(176, 126, 209, 1) 0%,
+          rgba(126, 79, 162, 1) 100%
+        );
+        margin-top: 2.4rem;
+        .contato__adress {
+          h4 {
+            color: #ffffff;
+            margin-bottom: 1.2rem;
+          }
+          p {
+            color: #ffffff;
+          }
+        }
+        .contato__phone {
+          h4 {
+            color: #ffffff;
+            margin-bottom: 1.2rem;
+          }
+          p {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .contato__map {
+      flex: 1;
+    }
+  }
+}

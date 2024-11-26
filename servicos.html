@@ -8,73 +8,178 @@
     <title>Serviço</title>
   </head>
   <body>
+    <style>
+      header {
+        position: sticky;
+        background-color: #9766B9;
+      }
+    </style>
+
     <header>
-      <div class="container">
-        <div class="header__logo">
-          <img src="./public/img/Logo-Conforto_oara_os_pes.svg" alt="">
+      <a href="./index.html"  class="header__logo">
+        <img src="/public/img/logo_footer.webp" alt="">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <a href="./index.html" class="header__link">Home</a>
+          <a href="./sobre.html" class="header__link">Sobre nós</a>
+          <a href="./servicos.html" class="header__link">Seviços</a>
+          <a href="./contato.html" class="header__link">Contato</a>
+        </ul>
+        <div class="header__cta">
+          <a href="./agendamento.html" class="btn">Agendamento</a>
         </div>
-        <nav class="header__nav">
-          <ul class="header__links">
-            <li class="header__link">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="header__link">
-              <a href="./sobre.html">Sobre</a>
-            </li>
-            <li class="header__link">
-              <a href="./servicos.html">Serviços</a>
-            </li>
-            <li class="header__link">
-              <a href="./contato.html">contato</a>
-            </li>
-            <li>
-              <a href="/agendamento.html" class="btn">Agendar</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
 
+    <section class="sobre__banner" style="background-image: url(./public/img/sobre_banner.webp);">
+      <div class="banner__title">
+        <h1>Serviços</h1>
+      </div>
+    </section>
 
-
+    <section class="service">
+      <div class="container">
+        <div class="service__title">
+          <span>Conheça</span>
+          <h2>Nossos Tratamentos</h2>
+        </div>
+        <div class="service__wrapper">
+          <div class="service__row">
+            <div class="service__column--vertical">
+              <a
+                href=""
+                class="service__card"
+                style="background-image: url(./public/img/service_img6.webp)"
+              >
+                <div class="card__title">
+                  <h5>PodoProfilaxia</h5>
+                </div>
+                <span class="card__cta">
+                  <img src="./public/img/arrow_forward_ios.svg" alt="" />
+                </span>
+              </a>
+              <a
+                href=""
+                class="service__card"
+                style="background-image: url(./public/img/service_img6.webp)"
+              >
+                <div class="card__title">
+                  <h5>PodoProfilaxia</h5>
+                </div>
+                <span class="card__cta">
+                  <img src="./public/img/arrow_forward_ios.svg" alt="" />
+                </span>
+              </a>
+            </div>
+            <div class="service__column--horizontal">
+              <a
+                href=""
+                class="service__card"
+                style="background-image: url(./public/img/service_img3.webp)"
+              >
+                <div class="card__title">
+                  <h5>PodoProfilaxia</h5>
+                </div>
+                <span class="card__cta">
+                  <img src="./public/img/arrow_forward_ios.svg" alt="" />
+                </span>
+              </a>
+              <a
+                href=""
+                class="service__card"
+                style="background-image: url(./public/img/hero_img.webp)"
+              >
+                <div class="card__title">
+                  <h5>PodoProfilaxia</h5>
+                </div>
+                <span class="card__cta">
+                  <img src="./public/img/arrow_forward_ios.svg" alt="" />
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="service__row">
+            <a
+              href=""
+              class="service__card"
+              style="background-image: url(./public/img/hero_img.webp)"
+            >
+              <div class="card__title">
+                <h5>PodoProfilaxia</h5>
+              </div>
+              <span class="card__cta">
+                <img src="./public/img/arrow_forward_ios.svg" alt="" />
+              </span>
+            </a>
+            <a
+              href=""
+              class="service__card"
+              style="background-image: url(./public/img/hero_img.webp)"
+            >
+              <div class="card__title">
+                <h5>PodoProfilaxia</h5>
+              </div>
+              <span class="card__cta">
+                <img src="./public/img/arrow_forward_ios.svg" alt="" />
+              </span>
+            </a>
+            <a
+              href=""
+              class="service__card"
+              style="background-image: url(./public/img/hero_img.webp)"
+            >
+              <div class="card__title">
+                <h5>PodoProfilaxia</h5>
+              </div>
+              <span class="card__cta">
+                <img src="./public/img/arrow_forward_ios.svg" alt="" />
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <footer>
       <div class="container">
-        <div class="footer__img">
-          <img src="" alt="" />
+        <div class="footer__info">
+          <div class="footer__logo">
+            <img src="/public/img/logo_footer.webp" alt="">
+          </div>
+          <div class="footer__social">
+            <a class="social__icon">
+              <img src="/public/img/wpp_icon.svg" alt="">
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/insta_icon.svg" alt="">
+            </a>
+            <a class="social__icon">
+              <img src="/public/img/facebok_icon.svg" alt="">
+            </a>
+          </div>
         </div>
-        <nav class="footer__nav">
+        <div class="footer__nav">
           <ul class="footer__links">
-            <li class="footer__link">
-              <a href="">Home</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Sobre</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Serviços</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Agendamento</a>
-            </li>
-            <li class="footer__link">
-              <a href="">Contato</a>
-            </li>
+            <li><a href="" class="footer__link">Home</a></li>
+            <li><a href="" class="footer__link">Sobre</a></li>
+            <li><a href="" class="footer__link">Serviços</a></li>
+            <li><a href="" class="footer__link">Contato</a></li>
           </ul>
-        </nav>
-        <div class="footer__contact">
-          <a href="" class="contact__icon">
-            <img src="./public/img/facebok_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/insta_icon.svg" alt="" />
-          </a>
-          <a href="" class="contact__icon">
-            <img src="./public/img/wpp_icon.svg" alt="" />
-          </a>
+          <div class="footer__contact">
+            <div class="footer__adress">
+              <span>Endereço</span>
+              <p>Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas  </p>
+            </div>
+            <div class="footer__phone">
+              <span>Telefone</span>
+              <p>(11) 9828-7249</p>
+            </div>
+          </div>
         </div>
-        <div class="footer__adress">
-          <p>Rua Frederico Rene de Jaegher, 314 - Vila Bernadote Brás Cubas</p>
-        </div>
+      </div>
+      <div class="footer__element" style="background-image: url(./public/img/footer_element_4x.webp);">
+        <a href="">Made by Lucas</a>
       </div>
     </footer>
   </body>

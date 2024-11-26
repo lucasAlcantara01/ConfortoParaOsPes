@@ -1,0 +1,40 @@
+.sobre__banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    margin: 4rem 6rem;
+    height: 42.2rem;
+    padding: 5rem;
+    .banner__title {
+      max-width: 70rem;
+      h1 {
+        color: #ffffff;
+      }
+    }
+
+}
+
+.sobre__description {
+  margin-bottom: 10rem;
+  .container {
+    .description__text {
+      max-width: 60rem;
+    }
+    .description__images {
+      display: flex;
+      gap: 2.4rem;
+      margin-top: 3.6rem;
+      .image__card {
+        flex: 1;
+        height: 33.6rem;
+        border-radius: 2rem;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
